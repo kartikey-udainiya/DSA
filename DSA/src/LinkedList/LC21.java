@@ -1,4 +1,4 @@
-package Day1;
+package LinkedList;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
