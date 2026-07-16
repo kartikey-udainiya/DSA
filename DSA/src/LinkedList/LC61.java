@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class LC61 {
     public ListNode rotateRight(ListNode head, int k) {
         if(k == 0 ||  head==null || head.next==null) return head;
 
