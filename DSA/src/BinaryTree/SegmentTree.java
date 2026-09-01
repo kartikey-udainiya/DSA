@@ -65,7 +65,10 @@ public class SegmentTree {
     }
 
     private int update(Node node, int value , int index){
+
+        //index should be in b/w the node.start and node.end range
         if(node.startInterval<=index && node.endInterval>=index){
+
             if(node.startInterval==index && node.endInterval==index){
                 node.value=value;
                 return node.value;
