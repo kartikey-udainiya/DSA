@@ -5,3 +5,5 @@
 5. LC102
 6. LC637
 7. LC103 - zig zag traversal in binary tree
+8. LC107
+9. LC116 - (good question) (next pointer)
