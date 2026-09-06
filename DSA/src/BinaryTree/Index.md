@@ -8,7 +8,7 @@
 8. LC107
 9. LC116 - (good question) (next pointer)
 10. LC199 - BT right side view
-11. Lc993 - (very Imp) 
+11. LC993 - (very Imp) 
 12. LC101 -(very good question) - binary tree isSymmetric()
     learned -
      1. null node ko incorporate krna (for symmetric checking)
@@ -19,3 +19,8 @@
 16. LC108 - (Good questions) - create BST from sorted array
     1. two mistakes (read the file)
 17. LC114 - (very good question) - flatten the BT into LL
+18. LC98 - (very good Question) - validate a BST
+    1. learned - that if i want to consider null in int than i should use type : "Integer" and not "int"  
+    2. Also the property of BST (whole left tree is small than root and same for right)
+19. LC236 - (Best question on BT) - find common ancestor
+20. LC230 - (good question)- kth smallest node in BST

@@ -14,6 +14,37 @@ public class MaxHeap {
         heapifyUp(index);
         index++;
     }
+    public int remove(){
+        if(index==0){
+            throw new RuntimeException("Heap is empty");
+        }
+
+        int removed = arr[0];
+        arr[0]=arr[index-1];
+        index--;
+        heapifyDown(0);
+
+        return removed;
+    }
+
+    private void heapifyDown(int i) {
+        int left = 2 * i + 1;
+        int right = 2 * i + 2;
+
+        int largest = i;
+
+        if (left < index && arr[left] > arr[largest]) {
+            largest = left;
+        }
+        if (right < index && arr[right] > arr[largest]) {
+            largest = right;
+        }
+
+        if (largest != i) {
+            swap(largest, i);
+            heapifyDown(largest);
+        }
+    }
 
     private void heapifyUp(int index){
         int parentIndex = (index-1)/2;
