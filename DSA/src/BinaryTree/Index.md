@@ -24,3 +24,6 @@
     2. Also the property of BST (whole left tree is small than root and same for right)
 19. LC236 - (Best question on BT) - find common ancestor
 20. LC230 - (good question)- kth smallest node in BST
+21. LC105 - (very good question) build tree from preorder and inorder given arrays
+22. LC297 - (good question) serialize and deserialize a BT
+23. LC112 - path sum
