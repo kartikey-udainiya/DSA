@@ -27,3 +27,5 @@
 21. LC105 - (very good question) build tree from preorder and inorder given arrays
 22. LC297 - (good question) serialize and deserialize a BT
 23. LC112 - path sum
+24. LC129 - sum root to leaf node (similar to above)
+25. LC124 - (very good question) Binary Tree Maximum Path Sum
