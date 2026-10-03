@@ -1,3 +1,10 @@
+import java.awt.image.AreaAveragingScaleFilter;
+import java.io.InputStream;
+import java.util.*;
+
+import static java.util.Collections.max;
+import static java.util.Collections.min;
+
 public class Main {
     public static void main(String[] args) {
         int v = 6;
@@ -22,10 +29,11 @@ public class Main {
         adj.get(5).add(4);
 
         System.out.println(bfsGraph(v,adj));
+        System.out.println(dfsGraph(v,adj));
+
 
 
     }
-    // BFS traversal
     public static ArrayList<Integer> bfsGraph(int v,ArrayList<ArrayList<Integer>> adj){
         boolean [] visited = new boolean[v];
         ArrayList<Integer> bfs = new ArrayList<>();
@@ -45,5 +53,24 @@ public class Main {
             }
         }
         return bfs;
+    }
+
+    // DFs Traversal of graph
+
+    public static ArrayList<Integer> dfsGraph(int v, ArrayList<ArrayList<Integer>> adj){
+        boolean[] visited = new boolean[v];
+        ArrayList<Integer> dfs = new ArrayList<>();
+        dfs(adj,0,dfs,visited);
+        return dfs;
+
+    }
+    private static void dfs(ArrayList<ArrayList<Integer>> adj, Integer node, ArrayList<Integer> dfs,boolean[] visited) {
+        visited[node] = true;
+        dfs.add(node);
+        for(Integer i : adj.get(node)){
+            if(!visited[i]) {
+                dfs(adj, i, dfs, visited);
+            }
+        }
     }
 }
