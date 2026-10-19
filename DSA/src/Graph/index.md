@@ -23,3 +23,25 @@
 10. LC207 - course Schedule I
 11. LC210 - course Schedule II
 12. LC269 -  brilliant problem with many edges cases must solve.
+13. Shortest Path DAG using Topo-sort.java :
+    1. problem is about find the shortest path of every node from the Source node
+    2. learning : how to create weighted Adj list
+    3. learning : how to do relaxation of edges.
+14. ShortestPathInUndirectedUnitWeightGraph.java.
+15. LC127 : word ladder I
+    1. learning : my weak area - string
+    2. how to iterate every char of string
+16. DijkstraMinHeap.java 
+    1. why to we need dijkstra - because we cannot find the shortest distance in a undirected graph with
+    non unit weights
+    2. For non-unit weighted graphs, you cannot use a normal BFS queue and simply add weight.
+    3. (as we did in point 14)
+    3. You need an algorithm that can handle the possibility that a node's distance gets improved later.
+17. DijkstraUsingSortedSet.java
+    1. learning - why use set:because in set we can remove duplicate entries thus a bit faster
+18. ShortestPathUsingDijkstra.java
+    1. Learning : in this we tell the "node by node" shortest path , ex - node 1->4->3->5
+    2. Learning : same algorithm but use of memoization that means storing the "parent node in the current node"  in parent array
+       why? :  because current node will tell about the parent node.
+19. LC1361.java
+    1. Learning : very good questions and that tell how to use dijkstra in such question.
