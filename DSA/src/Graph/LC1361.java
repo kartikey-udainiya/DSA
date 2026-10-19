@@ -22,6 +22,10 @@ class Solution {
             int u = values[1];
             int v = values[2];
 
+            if(diff > distance[u][v]){
+                continue;
+            }
+
             if(u==m-1 && v ==n-1){
                 return diff;
             }
