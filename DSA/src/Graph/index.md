@@ -45,3 +45,8 @@
        why? :  because current node will tell about the parent node.
 19. LC1361.java
     1. Learning : very good questions and that tell how to use dijkstra in such question.
+20. LC787.java : cheapest flight within K stops
+    1. i still not able to understand the answer i think or lack full grasp of it.
+21. LC1976 : Number of Ways to Arrive at Destination 
+    1. Learning : very good question of how to use DP 
+22. Bellman-Ford-Algorithm.java
