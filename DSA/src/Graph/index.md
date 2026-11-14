@@ -50,3 +50,24 @@
 21. LC1976 : Number of Ways to Arrive at Destination 
     1. Learning : very good question of how to use DP 
 22. Bellman-Ford-Algorithm.java
+23. Floyd-Warshall-Algorithm.java 
+    1. used to calculate the the shortest distance from the each node to all other nodes
+    2. LC1334.java - direct implementation of this
+24. Minimum-spanning-Tree.java also called Prim's Algorithm
+25. DisjointSet.java
+    1. Learning : i learned what are these disjoint set and why they are used 
+    2. answer of the above question - disjoint set as a data structure helps us to tell about the 
+        whether a node is part of other node in constant time i.e 4x(alpha)
+26. KruskalAlgo.java
+    1. learning : how to apply disjoint set to find the MST : is what kruskal algorithm is about
+27. DisjointSet.java - a question was solved below the derivation os DisjointSet
+    1. name of the Question : Mini edge movement
+    2. LC721 accounts merge : very good question next time you revise do learn other ways
+    3. LC305 Number of Island II : very very good question. (https://www.geeksforgeeks.org/problems/number-of-islands/1)
+28. Kosaraju-Algorithm.java : https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+    1. Learning : what is Strongly connected components is and how to find them.
+29. Tarjan's-Algorithm-LC1192.java :
+    1. Learning : what is tarjan's algorithm and how it works.
+30. Articulation-point-graph.java https://www.geeksforgeeks.org/problems/articulation-point2616/1
+    1. Learning : how to find where the node breaks the whole graph into multiple component or not.
+    2. Learning : it uses Tarjan's Algorithm.
