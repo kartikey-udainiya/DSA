@@ -1,11 +1,8 @@
 public List<List<Integer>> combinationSum(int[] nums, int target) {
     List<List<Integer>> list = new ArrayList<>();
     backtrack(0,0,target,list,nums,new ArrayList<>());
-
     return list;
-
 }
-
 public void backtrack(int index,int sum,int target, List<List<Integer>> list,int[]nums,List<Integer> l){
     if(sum==target){
         list.add(new ArrayList<>(l));
